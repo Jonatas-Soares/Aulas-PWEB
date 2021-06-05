@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade_06</title>
+</head>
+
+<body>
+    <script>
+        /*EXERCÍCIO 06 
+        Escreva um programa em javascipt que leia um número N da entrada padrão. Logo em seguida, calcule e mostre a média de N valores  lidos pelo teclado.
+        */
+        var i = parseInt(prompt("Informe um valor: "));
+        var cont = 1;
+        var soma = 0;
+        do {
+            soma = soma + parseInt(prompt("Informe outro valor: "));
+            cont++;
+        }
+        while (cont <= i)
+        document.write("O resultado final da soma dos valores é: ", soma / i);
+    </script>
+</body>
+
+</html>
